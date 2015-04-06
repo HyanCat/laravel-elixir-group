@@ -1,0 +1,27 @@
+{
+  "name": "laravel-elixir-group",
+  "version": "0.0.1",
+  "description": "group the elixir tasks.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://HyanCat@github.com/HyanCat/laravel-elixir-group.git"
+  },
+  "keywords": [
+    "laravel",
+    "elixir",
+    "group"
+  ],
+  "author": "HyanCat",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HyanCat/laravel-elixir-group/issues"
+  },
+  "homepage": "https://github.com/HyanCat/laravel-elixir-group",
+  "dependencies": {
+    "gulp-util": "^3.0.4"
+  }
+}

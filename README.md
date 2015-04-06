@@ -11,7 +11,7 @@ In your Gulpfile, firstly you should import the module.
 
 ```javascript
 var elixir = require('laravel-elixir');
-var ElixirGroup = require('elixir-group');
+var ElixirGroup = require('laravel-elixir-group');
 ```
 
 Then, you can add a task group named 'taskA' like this:

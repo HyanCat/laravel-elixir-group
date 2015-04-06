@@ -1,5 +1,5 @@
 var elixir = require('laravel-elixir');
-var ElixirGroup = require('elixir-group');
+var ElixirGroup = require('laravel-elixir-group');
 
 
 ElixirGroup.register('taskA', function() {

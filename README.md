@@ -40,6 +40,18 @@ At last, you start to run task:
 
 	ElixirGroup.start();
 
+## Command
+
+In your terminal, you just need to add the group option like this:
+
+	gulp [task] --taskA
+	gulp [task] --taskB
+
+Or run all tasks by adding nothing as usual.
+
+	gulp [task]
+
+
 ## Bugs and Contributions
 
 If you find a bug, please [post an issue on GitHub](https://github.com/HyanCat/laravel-elixir-group/issues) describing the problem.

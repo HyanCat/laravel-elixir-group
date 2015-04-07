@@ -1,6 +1,6 @@
 {
   "name": "laravel-elixir-group",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "group the elixir tasks.",
   "main": "index.js",
   "scripts": {

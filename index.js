@@ -6,16 +6,15 @@ var ElixirGroup = {
 	// register task group.
 	register: function (taskName, taskFuncion) {
 		this.tasks[taskName] = taskFuncion;
-		gutil.log(gutil.colors.white('Register Group:', taskName));
+		log('[Register Elixir Group] ', taskName);
 	},
 	// run task group.
 	run     : function (taskName) {
-		gutil.log(gutil.colors.white('Starting Group:', taskName));
+		log('[Starting Elixir Group] ', taskName);
 		var taskFuncion = this.tasks[taskName];
 		if (typeof(taskFuncion) == 'function') {
 			taskFuncion();
 		}
-		gutil.log(gutil.colors.white('Finished Group:', taskName));
 		this.finally();
 	},
 	// run all task group.
@@ -30,6 +29,12 @@ var ElixirGroup = {
 	}
 };
 
+var log = function ($title, $info) {
+	gutil.log(
+		gutil.colors.green($title) + gutil.colors.white($info)
+	);
+	gutil.log('');
+};
 
 ElixirGroup.start = function () {
 	// if the args contain the taskName with -- prefix, then run the task.
